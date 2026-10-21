@@ -10,19 +10,24 @@
   <body>
     <header>
       <nav class="header-menu">
-        <ul class="header__menu-list">
-          <li class="header__menu-list-item">
-            <a href="#0" class="header__menu-link">главная</a>
+        <ul class="header-menu-list">
+          <li class="header-menu-list-item">
+            <a href="#0" class="header-menu-link">главная</a>
           </li>
-          <li class="header__menu-list-item">
-            <a href="#lots" class="header__menu-link">посмотреть лоты</a>
+          <li class="header-menu-list-item">
+            <a href="#lots" class="header-menu-link">посмотреть лоты</a>
           </li>
-          <li class="header__menu-list-item">
-            <a href="#about" class="header__menu-link">об аукционе</a>
+          <li class="header-menu-list-item">
+            <a href="#about" class="header-menu-link">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <a class="header-logo"><img src="./images/logo-black.svg" /></a>
+      <a class="header-logo"
+        ><img
+          src="./images/logo-black.svg"
+          alt="Логотип Оно тебе надо"
+          class="header-logo-image"
+      /></a>
       <address class="contacts">
         <a class="address link">+9 999 555 5555</a>
         <a class="address link">info@sobaka.ge</a>
@@ -37,7 +42,7 @@
           <span class="aligned-text-right">НАДО</span>
         </h1>
         <div class="description">
-          <p class="cover-subline">Аукцион вещей, вкоторые никто не верил</p>
+          <p class="cover-subline">Аукцион вещей, в которые никто не верил</p>
           <button class="cover-button">Сделать ставку</button>
         </div>
       </section>
@@ -45,15 +50,14 @@
         <h1 class="lots-title">Лоты</h1>
         <ul class="lots-cards">
           <li class="lots-card">
-            <a>
-              <div class="card__overlay"></div>
+            <a href="#0">
+              <div class="card-overlay"></div>
               <img
                 src="./images/card-lot-01.jpg"
                 alt="Фильм режиссера"
-                class="card__image"
+                class="card-image"
               />
-              <div class="card__overlay"></div>
-              <article class="card__content">
+              <article class="card-content">
                 <h3 class="card-title">
                   Фильм режиссёра, который бросил киношколу
                 </h3>
@@ -66,14 +70,14 @@
             </a>
           </li>
           <li class="lots-card">
-            <a>
-              <div class="card__overlay"></div>
+            <a href="#0">
+              <div class="card-overlay"></div>
               <img
                 src="./images/card-lot-02.jpg"
                 alt="Книга, где описан..."
-                class="card__image"
+                class="card-image"
               />
-              <article class="card__content">
+              <article class="card-content">
                 <h3 class="card-title">
                   Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
@@ -89,14 +93,14 @@
             </a>
           </li>
           <li class="lots-card">
-            <a>
-              <div class="card__overlay"></div>
+            <a href="#0">
+              <div class="card-overlay"></div>
               <img
                 src="./images/card-lot-03.jpg"
                 alt="Картина, которую повторит..."
-                class="card__image"
+                class="card-image"
               />
-              <article class="card__content">
+              <article class="card-content">
                 <h3 class="card-title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
@@ -110,7 +114,7 @@
             </a>
           </li>
         </ul>
-        <a class="lots-more">посмотреть больше</a>
+        <a href="#0" class="lots-more">посмотреть больше</a>
       </section>
       <section class="about">
         <div class="about-logo-column">
@@ -118,13 +122,13 @@
             <img
               src="./images/logo-black.svg"
               alt="Логотип Оно тебе надо"
-              class="about-logo-imagine"
+              class="about-logo-image"
             />
           </div>
         </div>
         <div class="about-column">
           <h2 class="about-title">Об аукционе</h2>
-          <div class="about description-block">
+          <div class="about-description-block">
             <p class="about-text">
               Здесь вы не встретите очередное пафосное собрание невероятно
               дорогого антиквариата. Наши лоты вообще не должны были попасть ни
@@ -147,34 +151,40 @@
     </main>
     <footer class="footer">
       <address class="contacts">
-        <a class="address link">+9 999 555 5555</a>
-        <a class="address link">info@sobaka.ge</a>
+        <a href="#0" class="address link">+9 999 555 5555</a>
+        <a href="#0" class="address link">info@sobaka.ge</a>
         <p class="address text">наб. Принсенграхт 263-265, Амстердам</p>
       </address>
       <nav class="footer-menu">
-        <ul class="footer__menu-list">
-          <li class="footer__menu-list-item">
-            <a href="#0" class="footer__menu-link footer__menu-link_active"
+        <ul class="footer-menu-list">
+          <li class="footer-menu-list-item">
+            <a href="#0" class="footer-menu-link footer-menu-link-active"
               >главная</a
             >
           </li>
-          <li class="footer__menu-list-item">
-            <a href="#lots" class="footer__menu-link">посмотреть лоты</a>
+          <li class="footer-menu-list-item">
+            <a href="#lots" class="footer-menu-link">посмотреть лоты</a>
           </li>
-          <li class="footer__menu-list-item">
-            <a href="#about" class="footer__menu-link">об аукционе</a>
+          <li class="footer-menu-list-item">
+            <a href="#about" class="footer-menu-link">об аукционе</a>
           </li>
         </ul>
       </nav>
       <ul class="footer-social-list">
         <li class="footer-social-list-item">
-          <a><img src="./images/yt.svg" class="footer-social-icon" /></a>
+          <a href="#0"
+            ><img src="./images/yt.svg" class="footer-social-icon"
+          /></a>
         </li>
         <li class="footer-social-list-item">
-          <a><img src="./images/vk.svg" class="footer-social-icon" /></a>
+          <a href="#0"
+            ><img src="./images/vk.svg" class="footer-social-icon"
+          /></a>
         </li>
         <li class="footer-social-list-item">
-          <a><img src="./images/pinterest.svg" class="footer-social-icon" /></a>
+          <a href="#0"
+            ><img src="./images/pinterest.svg" class="footer-social-icon"
+          /></a>
         </li>
       </ul>
     </footer>
