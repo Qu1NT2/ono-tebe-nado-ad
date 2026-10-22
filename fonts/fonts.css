@@ -15,3 +15,31 @@
   font-weight: bold;
   font-display: swap;
 }
+.description {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0;
+  color: #fff;
+}
+
+.cover-subline {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0;
+  color: #fff;
+}
+.cover-button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0;
+  color: #fff;
+}
